@@ -1,0 +1,113 @@
+/* regole principali */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container.header {
+    height: 70px;
+   
+}
+header {
+    
+    background-color: #FF6900;
+    color: white;
+    
+ 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#logo {
+    width: 100px;
+    text-align: center;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+#category-title {font-size: 10px;
+    padding-right: 5px;
+    font-weight: 500;
+
+}
+
+.symble.header i {
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+.container.main {
+    padding-top: 90px;
+}
+
+.row {
+    display: flex;
+    justify-content:space-between;
+    
+    width: 100%;
+}
+
+
+
+
+.immagine {
+        height: 300px;
+        width: 30%;
+        background-size: 100% 300px;
+        background-repeat: no-repeat;
+        background-color: orange;
+        
+        
+    
+    
+}
+
+
+
+
+.prima {
+    background-image:url(../img/1.webp);
+    position: relative;
+    
+}
+
+.seconda  {
+    background-image:url(../img/2.webp);
+    position: relative;
+    
+}
+
+.terza  {
+    background-image:url(../img/3.webp);
+    position: relative;
+    
+}
+
+.label { padding:5px 5px;
+   max-height: 30px;
+   position:absolute;
+   bottom: 10px;
+   left: 0px;
+   color: white;
+   font-weight: 500;
+
+    
+}
+
+.red {
+    background-color: red;
+}
+
+
